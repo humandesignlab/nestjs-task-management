@@ -6,7 +6,4 @@ export class CreateTaskDto {
 
 	@IsNotEmpty()
 	description: string;
-
-	@IsNotEmpty()
-	owner: string;
 }
